@@ -1,0 +1,54 @@
+<!DOCTYPE >
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <div class="colum">
+    <img id="solo" src="Solo-Leveling-Logo-PNG.png">
+    <div class="about">
+        <p>
+            Solo Leveling (나 혼자만 레벨업) is a Korean web novel written by Chu-Gong (추공). 
+            It was first serialized by Papyrus on November 4, 2016 and ended with 14 volumes and 
+            270 chapters. On April 13, 2018, a webtoon serialization was released on KakaoPage, 
+            drawn by artists Gi So-Ryeong (기소령) and Jang Sung-Rak (장성락). It officially 
+            concluded on December 29, 2021 with 179 chapters released. A spin-off webtoon series
+            based on the web novel's side stories was launched roughly 13 months later on 
+            January 20, 2023.
+        </p>
+    </div></div>
+    <div class="colum">
+    <div class="contain">
+        <form>
+            <h1 id="h">Login</h1>
+            <div class="input">
+                <input class="hi" type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input">
+                <input class="hi" type="password" placeholder="password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="forget">
+                <label class="for"><input class="for" type="checkbox">remember me</label>
+                <a class="a"href="forget.html">forget password</a>
+            </div>
+            <button  type="submit" class="btn" onclick="hi()">Login</button>
+            <div class="register">
+                <p>Don't have an account? <a href="register.html">Register</a></p>
+            </div>
+        </form>
+    </div></div>
+    <script>
+        function hi(){
+            window.location.href="home.html"
+        }
+    </script>
+    
+</body>
+</html>
